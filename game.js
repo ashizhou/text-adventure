@@ -20,7 +20,7 @@ function printLine(text) {
 // Called from submit button or enter
 function command() {
   com=$('#command').val();
-  printLine("<span style='color:blue'>>>> "+com+"</span>");
+  printLine("<span>>>> "+com+"</span>");
   $('#command').val('');
   processCommand(world,com.toLowerCase());
 }
