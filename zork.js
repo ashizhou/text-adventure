@@ -42,7 +42,7 @@ function command() {
 function getWorld() {
   console.log("Get World");
   $.ajax({
-    url: "zork.xml", // name of file you want to parse
+    url: "zorknew.xml", // name of file you want to parse
     dataType: "xml",
     success: setupWorld,
     error: function(){alert("Error: Something went wrong reading:zork.xml");}
